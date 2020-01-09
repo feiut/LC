@@ -22,6 +22,8 @@ DFS + DP
 
 dp[i][j] 数组保存由起点到 [i][j] 点的路径 sum 最小值, 初始值为 float('inf'). 
 
+dfs 遍历时更新 dp 数组, dp[cur_x][cur_y] = dp[pre_x][pre_y](path_sum_until_now) + matrix[i][j].
+
 当数组越界, 或 dp[i][j] 存的值已经小于将更新的新路径的 sum 值时停止递归.
 
 ## Code
