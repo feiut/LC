@@ -1,1 +1,1 @@
-LeetCode Note started from 1/1/2019
+LeetCode (LintCode) Note started from 1/1/2019
