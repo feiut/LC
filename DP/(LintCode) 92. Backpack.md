@@ -22,7 +22,7 @@ Notice
 You can not divide any item into small pieces.
 
 ## Solution
-Time: O(n * m), Space: O(n * m) (空间可用滚动数组优化到 O(1))
+Time: O(n * m), Space: O(n * m) (空间可用滚动数组优化到 O(m))
 
 对于每个重量 M, 如果可以知道能不能凑成，就可以知道最大的可以凑成的重量。
 确定状态：需要知道 n 个物品能否拼出重量 w。最后一步：最后一个物品 A[n - 1] 能否入包。
